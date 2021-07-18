@@ -1,0 +1,92 @@
+<?xml version = "1.0"  encoding = "utf-8"?>
+<!DOCTYPE student_catalog [
+<!ELEMENT student_catalog (student+)>
+<!ELEMENT student (name, address, marks, hobbies)>
+<!ELEMENT name (fname, lname, mname)>
+<!ELEMENT address (houseno, streetname, cityname, state)>
+<!ELEMENT marks (#PCDATA)>
+<!ELEMENT hobbies (#PCDATA)>
+]>
+<?xml-stylesheet type="text/css" href="studentcss.css"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<c_section>
+<xs:student_catalog>
+ <xs:student>
+   <xs:name> 
+  	<xs:fname> Lokesh </xs:fname>
+	<xs:mname> K </xs:mname>
+	<xs:lname> Shetty </xs:lname>
+	
+   </xs:name>
+   <xs:address>
+	<xs:houseno> 48 </xs:houseno>
+	<xs:streetname> Karkala </xs:streetname>
+	<xs:cityname> Udupi </xs:cityname>
+	<xs:state> Karnataka </xs:state>
+   </xs:address>
+   <xs:marks> 85 </xs:marks>
+   <xs:hobbies> Dancing </xs:hobbies>
+  </xs:student>
+</xs:student_catalog>
+ </c_section>
+ <c_section>
+<xs:student_catalog>
+ <xs:student>
+   <xs:name> 
+  	<xs:fname> Kiran </xs:fname>
+	<xs:mname> H </xs:mname>
+	<xs:lname> Poojary </xs:lname>
+	
+   </xs:name>
+   <xs:address>
+	<xs:houseno> 23 </xs:houseno>
+	<xs:streetname> Mala </xs:streetname>
+	<xs:cityname> Mangalore </xs:cityname>
+	<xs:state> Karnataka </xs:state>
+   </xs:address>
+   <xs:marks> 95 </xs:marks>
+   <xs:hobbies> Singing </xs:hobbies>
+  </xs:student>
+</xs:student_catalog>
+</c_section>
+<c_section>
+<xs:student_catalog>
+ <xs:student>
+   <xs:name> 
+  	<xs:fname> Karan </xs:fname>
+	<xs:mname> C </xs:mname>
+	<xs:lname> Kumar </xs:lname>
+	
+   </xs:name>
+   <xs:address>
+	<xs:houseno> 26 </xs:houseno>
+	<xs:streetname> panja </xs:streetname>
+	<xs:cityname> Mangalore </xs:cityname>
+	<xs:state> Karnataka </xs:state>
+   </xs:address>
+   <xs:marks> 75 </xs:marks>
+   <xs:hobbies> Singing </xs:hobbies>
+  </xs:student>
+</xs:student_catalog>
+</c_section>
+<c_section>
+<xs:student_catalog>
+ <xs:student>
+   <xs:name> 
+  	<xs:fname> Drama </xs:fname>
+	<xs:mname> C </xs:mname>
+	<xs:lname> Krama </xs:lname>
+	
+   </xs:name>
+   <xs:address>
+	<xs:houseno> 29 </xs:houseno>
+	<xs:streetname> kashi </xs:streetname>
+	<xs:cityname> Mangalore </xs:cityname>
+	<xs:state> Karnataka </xs:state>
+   </xs:address>
+   <xs:marks> 82 </xs:marks>
+   <xs:hobbies> Drawing </xs:hobbies>
+  </xs:student>
+</xs:student_catalog>
+</c_section>
+</xs:schema>

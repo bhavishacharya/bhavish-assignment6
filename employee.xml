@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type = "text/xsl" href="employee.xsl"?>
+<emp>
+<s>
+ <eno> 1001 </eno>
+ <name> 
+	<fname> Karan </fname>
+	<lname> Kumar</lname>
+	<mname> H </mname>
+ </name>
+ <fathername> Ajay Kumar </fathername>
+ <DOB> 18-07-2000 </DOB>
+ <city> Udupi </city>
+ <state> Karnataka </state>
+ <qualification> BCA </qualification>
+ <salary>25000</salary>
+</s>
+<s>
+ <eno> 1002 </eno>
+ <name> 
+	<fname> Arun </fname>
+	<lname> Gunjan </lname>
+	<mname> S </mname>
+ </name>
+ <fathername> Ramesh S Gunjan </fathername>
+ <DOB> 07-02-2000 </DOB>
+ <city> Mangalore </city>
+ <state> Karnataka </state>
+ <qualification> MCA </qualification>
+ <salary>65000</salary>
+</s>
+<s>
+ <eno> 1003 </eno>
+ <name> 
+	<fname> Harish </fname>
+	<lname> Varma </lname>
+	<mname> A </mname>
+ </name>
+ <fathername> Darma Varma </fathername>
+ <DOB> </DOB>
+ <city> Chennai </city>
+ <state> TN </state>
+ <qualification> BCA </qualification>
+ <salary>35000</salary>
+</s>
+</emp>
